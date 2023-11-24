@@ -17,7 +17,9 @@ services:
     #Aqui hago que los cambios que se hagan en mi local
     #tambien afecte a mi contenedor
     volumes:
-      - .:/home/app
+      - type: bind
+        source: ./
+        target: /app
   #Imagen PostgreSQL
   postgres:
     #Obtiene la imagen de Docker Hub
