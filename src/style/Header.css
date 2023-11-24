@@ -1,0 +1,50 @@
+header {
+    height: 80px;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.career-logo {
+    width: 55px;
+    margin-left: 30%;
+}
+
+.container-form_icon {
+    padding-left: 2.5%;
+    padding-right: 1%;
+    font-size: 1.3rem;
+    color: #FFF;
+}
+
+.container-firstNavegation {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3%;
+}
+
+.container-firstNavegation ul {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.container-firstNavegation ul a {
+    text-decoration: none;
+}
+
+.container-firstNavegation ul li {
+    padding: 0px 0px 0px 15px;
+    list-style: none;
+    color: #FFF;
+    font-size: 1em;
+}
