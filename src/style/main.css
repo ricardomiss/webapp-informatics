@@ -1,6 +1,7 @@
 main {
+    overflow: hidden;
     height: auto;
     width: 100%;
+    display: block;
     position: relative;
-    background: cadetblue;
 }

@@ -45,8 +45,7 @@ export const Header = () => {
                         <li
                             id={ item.id }
                             onClick={ () => selectItem( item.id )}
-                            style={{ display: selectedItem === item.id ? 'none' : 'block',
-                                     color: 'black' }}
+                            style={{ display: selectedItem === item.id ? 'none' : 'block' }}
                         >
                             { item.text }
                         </li>

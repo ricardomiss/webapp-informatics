@@ -8,6 +8,7 @@
 }
 
 .container-banner {
+    box-sizing: border-box;
     height: var(--banner-height);
     width: var(--banner-width);
     position: relative;
