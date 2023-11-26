@@ -6,6 +6,7 @@ import CarrouselVideo4 from '../../statics/CarrouselVideo4.webp';
 export const CarrouselVideo = () => {
   return (
     <div className="container-carousel">
+      <p>ESTUDIANTES EN ACCIÓN</p>
       <div className="container-carousel-item-video">
         <img src={ CarrouselVideo1 } alt="Estudiante 1" className='container-video-thumbnail'/>
         <div className="container-video-content">

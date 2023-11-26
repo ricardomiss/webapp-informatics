@@ -1,7 +1,7 @@
 export const DescriptionProyects = () => {
   return (
-    <div className="container-projetcsDescription">
-        <div className="container-Description2">
+    <div className="container-projetcsDescription1">
+        <div className="container-Description1">
             <h1>
             NUESTROS PROYECTOS
             </h1>
