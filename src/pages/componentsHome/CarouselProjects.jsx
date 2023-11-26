@@ -1,12 +1,12 @@
-import CarouselImage1 from '../../statics/CarouselProjects1.png';
-import CarouselImage2 from '../../statics/CarouselProjects2.png';
-import CarouselImage3 from '../../statics/CarouselProjects3.png';
-import CarouselImage4 from '../../statics/CarouselProjects4.png';
+import CarouselImage1 from '../../statics/CarouselProjects1.webp';
+import CarouselImage2 from '../../statics/CarouselProjects2.webp';
+import CarouselImage3 from '../../statics/CarouselProjects3.webp';
+import CarouselImage4 from '../../statics/CarouselProjects4.webp';
 
 //Estilos css
 import '../../style/Home/CarouselProjects.css';
 
-export const CarouselProjects = () => {
+const CarouselProjects = () => {
   return (
     <div className='container-carouselProjects'>
 
@@ -75,3 +75,5 @@ export const CarouselProjects = () => {
     </div>
   )
 }
+
+export default CarouselProjects;

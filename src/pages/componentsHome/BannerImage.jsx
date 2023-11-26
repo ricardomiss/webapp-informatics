@@ -1,7 +1,7 @@
-import imgCode from '../../statics/img-code.png';
+import imgCode from '../../statics/img-code.webp';
 import '../../style/BannerImage.css';
 
-export const BannerImage = () => {
+const BannerImage = () => {
   return (
     <div className="container-banner">
         <div className="container-description">
@@ -20,3 +20,5 @@ export const BannerImage = () => {
     </div>
   )
 }
+
+export default BannerImage;

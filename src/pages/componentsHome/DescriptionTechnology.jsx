@@ -1,6 +1,6 @@
-import computer from '../../statics/computer.png';
+import computer from '../../statics/computer.webp';
 
-export const DescriptionTechnology = () => {
+const DescriptionTechnology = () => {
     return (
         <div className="container-descriptionTechnology">
             <div className="container-imageComputer">
@@ -20,3 +20,5 @@ export const DescriptionTechnology = () => {
         </div>
     );
 }
+
+export default DescriptionTechnology;

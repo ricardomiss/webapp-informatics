@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
-import careerlogo from '../statics/kapibara.png';
+import careerlogo from '../statics/kapibara.webp';
 import { useState } from 'react';
 import '../style/Header.css';
 
@@ -16,7 +16,7 @@ const navItems = [
 
 export let valueEnableWindow = false;
 
-export const Header = () => {
+const Header = () => {
 
     const [ selectedItem, setSelectedItem ] = useState('one');
     
@@ -56,3 +56,5 @@ export const Header = () => {
     </header>
   );
 }
+
+export default Header;

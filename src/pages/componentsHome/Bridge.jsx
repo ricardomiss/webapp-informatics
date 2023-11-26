@@ -1,7 +1,7 @@
-import firstBridge from '../../statics/first-bridge.png';
-import secondBridge from '../../statics/second-bridge.png';
+import firstBridge from '../../statics/first-bridge.webp';
+import secondBridge from '../../statics/second-bridge.webp';
 
-export const Bridge = () => {
+const Bridge = () => {
     return (
         <div className="container-bridge">
             <div className="container-bridge_description">
@@ -28,3 +28,5 @@ export const Bridge = () => {
         </div>
     );
 }
+
+export default Bridge;

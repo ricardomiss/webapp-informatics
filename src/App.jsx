@@ -6,7 +6,7 @@ import { RequirementsInscription } from "./pages/RequirementsInscription";
 import { SuccessStories } from "./pages/SuccessStories";
 import { FrequentQuestions } from "./pages/FrequentQuestions";
 import { AcademicExperience } from "./pages/AcademicExperience";
-import { Header } from "./components/Header";
+import Header from "./components/Header";
 
 export const App = () => {
   return (

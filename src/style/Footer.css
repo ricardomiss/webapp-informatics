@@ -1,0 +1,57 @@
+.container-footer {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+footer {
+    height: 40vh;
+    width: 100vw;
+    background: #000;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer_redes {
+    margin-left: 5%;
+}
+
+.container-footer_redes h3,
+.container-footerFirst h3,
+.container-footerSecond h3,
+.container-footerThird h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.container-footer_redes ul,
+.container-footerFirst ul,
+.container-footerSecond ul,
+.container-footerThird ul {
+    display: block;
+    position: relative;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.container-footerThird {
+   margin-right: 9%;
+
+}
+
+
+.container-footer_redes ul li,
+.container-footerFirst ul li,
+.container-footerSecond ul li,
+.container-footerThird ul li {
+    margin-left: -15%;
+    padding-top: 5%;
+    display: block;
+    color: #fff;
+}
