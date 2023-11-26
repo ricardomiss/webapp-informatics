@@ -8,22 +8,22 @@ export const CarrouselEventHighlights = () => {
     <div className="container-carousel-highlights">
       <div className="container-highlight-item">
         <img  src={ carrouselhighlights1 } alt="Competencias de Programación" className="container-highlight-image" />
-        <h1>Competencias de Programación: Donde se pone a prueba la habilidad y la creatividad de nuestros estudiantes</h1>
+        <h1>COMPETENCIAS DE PROGRAMACIÓN: DONDE SE PONE A PRUEBA LA HABILIDAD Y LA CREATIVIDAD DE NUESTROS ESTUDIANTES</h1>
       </div>
 
       <div className="container-highlight-item">
         <img  src={ carrouselhighlights2 } alt="Aprendizaje en Seminarios de Tecnología" className="container-highlight-image" />
-        <h1>Aprendizaje en Seminarios de Tecnología: Estudiantes y profesionales compartiendo conocimiento</h1>
+        <h1>APRENDIZAJE EN SEMINARIOS DE TECNOLOGÍA: ESTUDIANTES Y PROFESIONALES COMPARTIENDO CONOCIMIENTO</h1>
       </div>
 
       <div className="container-highlight-item">
         <img  src={ carrouselhighlights3 } alt="Colaboración en la Feria de Proyectos" className="container-highlight-image" />
-        <h1>Colaboración en la Feria de Proyectos: Estudiantes exhibiendo sus soluciones tecnológicas</h1>
+        <h1>COLABORACIÓN EN LA FERIA DE PROYECTOS: ESTUDIANTES EXHIBIENDO SUS SOLUCIONES TECNOLÓGICAS</h1>
       </div>
 
       <div className="container-highlight-item">
         <img  src={ carrouselhighlights4 } alt="Innovación en el Hackathon Anual" className="container-highlight-image" />
-        <h1>Innovación en el Hackathon Anual: Donde las ideas cobran vida</h1>
+        <h1>INNOVACIÓN EN EL HACKATHON ANUAL: DONDE LAS IDEAS COBRAN VIDA</h1>
       </div>
     </div>
   );
