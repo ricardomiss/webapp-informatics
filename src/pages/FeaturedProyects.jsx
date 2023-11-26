@@ -5,6 +5,7 @@ import { DescriptionProyects} from "./ComponentsProyects/DescriptionProjects";
 import { CarrouselGalery} from "./ComponentsProyects/CarrusselGalery";
 import { NumberProjects} from "./ComponentsProyects/NumberProjects";
 import InstituteContactForm from "./ComponentsProyects/InstituteContactForm";
+import Footer from "../components/Footer";
 
 export const FeaturedProyects = () => {
   return (
@@ -16,6 +17,7 @@ export const FeaturedProyects = () => {
       <NumberProjects />
       <CarrouselVideo />
       <InstituteContactForm />
+      <Footer />
     </main>
   )
 }
