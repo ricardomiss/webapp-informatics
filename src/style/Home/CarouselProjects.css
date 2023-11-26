@@ -1,0 +1,68 @@
+.container-carouselProjects {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-carouselProjects_card {
+    height: 75%;
+    width: 22%;
+    margin: 0 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+    background: #3a89c9;
+}
+
+.container-carouselProjects_card:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.5s ease-in-out;
+}
+
+.container-carouselProjects_img {
+    border-radius: 14px 14px 0 0;
+    height: 50%;
+    width: 100%;
+    background: #fff;
+}
+
+.container-carouselProjects_img img {
+    border-radius: 14px 14px 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-carouselProyects_description {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-carouselProyects_description p {
+    padding: 10% 5%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.container-carouselProyects_description button {
+    position: absolute;
+    bottom: 5%;
+    height: 10%;
+    width: 70%;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: none;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}

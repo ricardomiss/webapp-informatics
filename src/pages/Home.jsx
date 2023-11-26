@@ -1,9 +1,13 @@
 import { BannerImage } from "./componentsHome/BannerImage";
-import '../style/main.css';
-import '../style/Home/container-tecworld.css';
 import { DescriptionTechnology } from "./componentsHome/DescriptionTechnology";
 import { Bridge } from "./componentsHome/Bridge";
 import { StudentImage } from "./componentsHome/StudentImage";
+import { EngineerProfile } from "./componentsHome/EngineerProfile";
+import { CarouselProjects } from "./componentsHome/CarouselProjects";
+//Estilos de CSS
+import '../style/main.css';
+import '../style/Home/container-tecworld.css';
+import { LanguagesCarousel } from "./componentsHome/LanguagesCarousel";
 
 export const Home = () => {
     return (
@@ -15,6 +19,9 @@ export const Home = () => {
             </div>
             <Bridge />
             <StudentImage />
+            <EngineerProfile />
+            <CarouselProjects />
+            <LanguagesCarousel />
         </main>
     );
 }
