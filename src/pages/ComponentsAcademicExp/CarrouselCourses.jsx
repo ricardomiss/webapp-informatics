@@ -24,35 +24,35 @@ export const CarrouselCourses = () => {
 
       <div className="container-course-item">
         <img src="" alt="" className="container-course-image" />
-        <h1>Python para Todos</h1>
+        <h1>PYTHON PARA TODOS</h1>
         <p>Serie de lecciones para empezar con Python, ideal para principiantes.</p>
         <button className="container-course-button">Comienza a aprender</button>
       </div>
 
       <div className="container-course-item">
         <img src={ carrouselCourse4 } alt="" className="container-course-image" />
-        <h1>Introducción a las Redes</h1>
+        <h1>INTRODUCCIÓN A LAS REDES</h1>
         <p>Explicaciones claras y prácticas sobre conceptos básicos de networking.</p>
         <button className="container-course-button">Explora el curso</button>
       </div>
 
       <div className="container-course-item">
         <img src={ carrouselCourse5 } alt="" className="container-course-image" />
-        <h1>Seguridad Informática: Una Guía Práctica</h1>
+        <h1>SEGURIDAD INFORMÁTICA: UNA GUÍA PRÁCTICA</h1>
         <p>Conocimientos esenciales sobre la protección de sistemas informáticos.</p>
         <button className="container-course-button">Leer la guía </button>
       </div>
 
       <div className="container-course-item">
         <img src={ carrouselCourse6 } alt="" className="container-course-image" />
-        <h1>Fundamentos de Bases de Datos</h1>
+        <h1>FUNDAMENTOS DE BASES DE DATOS</h1>
         <p>Recurso para entender la gestión de datos y practicar con bases de datos reales.</p>
         <button className="container-course-button">Acceder al Tutorial</button>
       </div>
 
       <div className="container-course-item">
         <img src={ carrouselCourse7 } alt="" className="container-course-image" />
-        <h1>Desarrollo de Apps Móviles</h1>
+        <h1>DESARROLLO DE APPS MÓVILES</h1>
         <p>Aprende a crear tu primera aplicación móvil con este curso introductorio.</p>
         <button className="container-course-button">Ver Curso</button>
       </div>
