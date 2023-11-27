@@ -1,7 +1,7 @@
 import CarrouselVideo1 from '../../statics/CarrouselVideo1.webp';
-import CarrouselVideo2 from '../../statics/CarrouselVideo2.webp';
-import CarrouselVideo3 from '../../statics/CarrouselVideo3.webp';
-import CarrouselVideo4 from '../../statics/CarrouselVideo4.webp';
+import CarrouselVideo2 from '../../statics/EngineerProfile.webp';
+import CarrouselVideo3 from '../../statics/CarrouselVideo2.webp';
+import CarrouselVideo4 from '../../statics/CarrouselVideo3.webp';
 
 export const CarrouselVideo = () => {
   return (

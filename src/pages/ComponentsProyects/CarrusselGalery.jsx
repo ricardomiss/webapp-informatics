@@ -1,7 +1,7 @@
-import CarrouselGaleryImages1 from '../../statics/CarrouselGaleryImages1.webp';
-import CarrouselGaleryImages2 from '../../statics/CarrouselGaleryImages2.webp';
-import CarrouselGaleryImages3 from '../../statics/CarrouselGaleryImages3.webp';
-import CarrouselGaleryImages4 from '../../statics/CarrouselGaleryImages4.webp';
+import CarrouselGaleryImages1 from '../../statics/CarouselProjects4.webp';
+import CarrouselGaleryImages2 from '../../statics/CarouselProjects5.webp';
+import CarrouselGaleryImages3 from '../../statics/CarouselProjects3.webp';
+import CarrouselGaleryImages4 from '../../statics/CarouselProjects6.webp';
 
 export const CarrouselGalery = () => {
   return (

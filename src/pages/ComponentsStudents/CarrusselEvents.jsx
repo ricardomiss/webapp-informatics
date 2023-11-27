@@ -19,16 +19,17 @@ export const CarrouselEvents = () => {
       </div>
 
       <div className="container-event-item">
-        <img src={ carrouselevent3 } alt="Conferencia de Seguridad Informática" className="container-event-image" />
+        <img src={ carrouselevent3 } alt="Seminario de Innovación Tecnológica" className="container-event-image" />
+        <h1>SEMINARIO DE INNOVACIÓN TECNOLÓGICA</h1>
+        <p>Participa en nuestro seminario y sumérgete en las últimas innovaciones en tecnología. Conecta con líderes de la industria y pioneros en investigación.</p>
+      </div>
+
+      <div className="container-event-item">
+        <img src={ carrouselevent4 } alt="Conferencia de Seguridad Informática" className="container-event-image" />
         <h1>CONFERENCIA DE SEGURIDAD INFORMÁTICA</h1>
         <p>Conoce a expertos en ciberseguridad y aprende sobre las últimas tendencias y técnicas para proteger el mundo digital en nuestra conferencia anual.</p>
       </div>
 
-      <div className="container-event-item">
-        <img src={ carrouselevent4 } alt="Seminario de Innovación Tecnológica" className="container-event-image" />
-        <h1>SEMINARIO DE INNOVACIÓN TECNOLÓGICA</h1>
-        <p>Participa en nuestro seminario y sumérgete en las últimas innovaciones en tecnología. Conecta con líderes de la industria y pioneros en investigación.</p>
-      </div>
     </div>
   );
 }
