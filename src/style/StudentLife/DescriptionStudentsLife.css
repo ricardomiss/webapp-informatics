@@ -1,0 +1,45 @@
+.container-StudentsDescription2 {
+    height: 200vh;
+    width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(To Top, #fff, #014D98);
+}
+.container-Description2-first {
+    margin: 0px 5% 5% 5%;
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container-Description2First_image {
+    margin: 2% 0 2% 2%;
+    height: 400px;
+    width: 600px;
+    z-index: 1;
+    position: relative;
+}
+.container-Description2First_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container-Description_p {
+    z-index: 2;
+    margin: 0 2% 0 -8%;
+    height: 300px;
+    width: 100%;
+    background: rgba(31, 45, 72, 0.7);
+}
+.container-Description_p p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 7% 8% 5% 13%;
+}
+.edit {
+    width: 50px;
+    display: block;
+}

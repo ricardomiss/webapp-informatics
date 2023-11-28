@@ -1,14 +1,14 @@
 import studentsbackground from '../../statics/BannerStudents.webp';
+import '../../style/StudentLife/BannerImage2.css';
 
 export const BannerImage2 = () => {
   return (
-    <div className="container-banner2">
-        <div className="container-description2">
+    <div className="container-bannerStudentLife">
+        <div className="container-bannerStudentDescription">
             <h1>
               COMUNIDAD Y CÓDIGO: VIDA ESTUDIANTIL EN INGENIERÍA INFORMÁTICA
             </h1>
         </div>
-        <img src={ studentsbackground } alt="" className='container-banner2_img'/>
     </div>
   )
 }
