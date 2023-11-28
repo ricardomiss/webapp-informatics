@@ -1,6 +1,6 @@
 import '../../style/Home/ConnectInstitute.css';
 
-const ConnectInstitute = () => {
+export const ConnectInstitute = () => {
   return (
     <div className='container-connect'>
         <h4>CONÉCTATE CON ITESCO</h4>
@@ -19,5 +19,3 @@ const ConnectInstitute = () => {
     </div>
   )
 }
-
-export default ConnectInstitute;

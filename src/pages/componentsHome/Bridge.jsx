@@ -1,7 +1,7 @@
 import firstBridge from '../../statics/first-bridge.webp';
 import secondBridge from '../../statics/second-bridge.webp';
 
-const Bridge = () => {
+export const Bridge = () => {
     return (
         <div className="container-bridge">
             <div className="container-bridge_description">
@@ -28,5 +28,3 @@ const Bridge = () => {
         </div>
     );
 }
-
-export default Bridge;

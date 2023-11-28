@@ -1,7 +1,7 @@
 import EngineerImage from '../../statics/EngineerProfile.webp';
 import '../../style/Home/EngineerProfile.css';
 
-const EngineerProfile = () => {
+export const EngineerProfile = () => {
   return (
     <div className="container-engineerProfile">
         <div className="container-engineerProfile_flexElement">
@@ -24,5 +24,3 @@ const EngineerProfile = () => {
     </div>
   )
 }
-
-export default EngineerProfile;

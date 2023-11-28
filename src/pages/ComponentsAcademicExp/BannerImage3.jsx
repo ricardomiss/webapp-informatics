@@ -1,14 +1,15 @@
 import AcademicBackground from '../../statics/Logo-White.webp';
+import '../../style/AcademicExperience/BannerImage3.css'
 
 export const BannerImage3 = () => {
   return (
-    <div className="container-banner3">
-        <div className="container-description3">
+    <div className="container-experienceBanner">
+        <div className="container-experienceDescription">
             <h1>
-             FORMACIÓN INTEGRAL EN INGENIERÍA INFORMÁTICA
+                FORMACIÓN INTEGRAL EN INGENIERÍA INFORMÁTICA
             </h1>
         </div>
-        <img src={ AcademicBackground } alt="" className='container-banner3_img'/>
+        <img src={ AcademicBackground } alt="" />
     </div>
   )
 }

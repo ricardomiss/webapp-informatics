@@ -6,7 +6,7 @@ import CarouselImage4 from '../../statics/CarouselProjects4.webp';
 //Estilos css
 import '../../style/Home/CarouselProjects.css';
 
-const CarouselProjects = () => {
+export const CarouselProjects = () => {
   return (
     <div className='container-carouselProjects'>
 
@@ -75,5 +75,3 @@ const CarouselProjects = () => {
     </div>
   )
 }
-
-export default CarouselProjects;

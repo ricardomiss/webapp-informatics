@@ -1,6 +1,6 @@
 import eliamImage from '../../statics/eliam-image.webp';
 
-const StudentImage = () => {
+export const StudentImage = () => {
   return (
     <div className="container-eliam">
         <div className="container-eliamImage">
@@ -23,5 +23,3 @@ const StudentImage = () => {
     </div>
   )
 }
-
-export default StudentImage;

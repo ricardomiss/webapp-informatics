@@ -18,43 +18,46 @@ export let valueEnableWindow = false;
 
 const Header = () => {
 
-    const [ selectedItem, setSelectedItem ] = useState('one');
-    
-    const selectItem = ( liIDs ) => setSelectedItem(liIDs);
-    
+    const [selectedItem, setSelectedItem] = useState('one');
+
+    const selectItem = (liIDs) => setSelectedItem(liIDs);
+
     const searchWindow = () => {
         console.log('Clicked Search Button!!');
     }
 
-  return (
-    <header>
-        <Link to="/">
-            <img 
-                src={ careerlogo }
-                className='career-logo'
-                alt="Logo Ingeniería Informática - Universidad Instituto Tecnológico Superior De Coatzacoalcos " 
-            />
-        </Link>
+    return (
+        <header style={{ backgroundColor: selectedItem === 'four' ? '#1F2D48' : '' }}>
+            <Link to="/">
+                <img
+                    src={careerlogo}
+                    className='career-logo'
+                    alt="Logo Ingeniería Informática - Universidad Instituto Tecnológico Superior De Coatzacoalcos "
+                />
+            </Link>
 
-        <FaSearch className='container-form_icon' onClick={ searchWindow }/>
-     
-        <nav className='container-firstNavegation'>
-            <ul>
-                {navItems.map(  item => (
-                    <Link to={ item.path } key={ item.id }>
-                        <li
-                            id={ item.id }
-                            onClick={ () => selectItem( item.id )}
-                            style={{ display: selectedItem === item.id ? 'none' : 'block' }}
-                        >
-                            { item.text }
-                        </li>
-                    </Link>
-                ))}
-            </ul>
-        </nav>
-    </header>
-  );
+            <FaSearch className='container-form_icon' onClick={searchWindow} style={{ color: selectedItem === 'four' ? '#fff' : '' }}/>
+
+            <nav className='container-firstNavegation'>
+                <ul>
+                    {navItems.map(item => (
+                        <Link to={item.path} key={item.id}>
+                            <li
+                                id={item.id}
+                                onClick={() => selectItem(item.id)}
+                                style={{
+                                    display: selectedItem === item.id ? 'none' : 'block',
+                                    color: selectedItem === 'four' ? '#fff' : '',
+                                }}
+                            >
+                                {item.text}
+                            </li>
+                        </Link>
+                    ))}
+                </ul>
+            </nav>
+        </header>
+    );
 }
 
 export default Header;

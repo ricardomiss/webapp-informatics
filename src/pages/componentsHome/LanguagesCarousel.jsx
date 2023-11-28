@@ -5,7 +5,7 @@ import MySQL from '../../statics/we.webp';
 
 import '../../style/Home/LanguagesCarousel.css';
 
-const LanguagesCarousel = () => {
+export const LanguagesCarousel = () => {
   return (
     <div className="container-languagesCarousel">
         <div className="container-languagesCarousel_circle-bottom">
@@ -76,5 +76,3 @@ const LanguagesCarousel = () => {
     </div>
   )
 }
- 
-export default LanguagesCarousel;
