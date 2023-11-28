@@ -64,9 +64,7 @@ export const CarouselProjects = () => {
 
             <div className="container-carouselProyects_description">
                 <p>
-                    Especialízate en diseñar, implementar y administrar bases de datos sólidas, seguras y 
-                    eficientes, fundamentales para la infraestructura de información de organizaciones 
-                    modernas.  
+                    Adquiere habilidades clave en redes de computadoras para ofrecer consultoría especializada y soluciones que impulsen la mejora continua en tecnologías de la información.
                 </p>
 
                 <button>Más Sobre Redes</button>
