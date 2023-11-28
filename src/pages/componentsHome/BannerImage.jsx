@@ -10,7 +10,7 @@ export const BannerImage = () => {
             </h1>
 
             <p>
-                Descubre la Ingeniería Informática en ITESCO y lidera la innovación tecnológica
+                Descubre la Ingeniería Informática en ITESCO y lidera la innovación tecnológica.
             </p>
 
             <button>Ver más</button>

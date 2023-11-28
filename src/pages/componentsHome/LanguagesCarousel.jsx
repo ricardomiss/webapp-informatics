@@ -37,7 +37,7 @@ export const LanguagesCarousel = () => {
 
                 <p>
                     Con python, adquiere la habilidad de escribir código claro y poderoso. Es el lenguaje 
-                    ideal para la ciencia de datos, automatización y desarrollo ráapido de aplicaciones.
+                    ideal para la ciencia de datos, automatización y desarrollo rápido de aplicaciones.
                 </p>
             </div>
 
@@ -51,7 +51,7 @@ export const LanguagesCarousel = () => {
                 </h3>
 
                 <p>
-                    Profundiza en C++, un lenguaje qye ofrece un gran control sobre recursos del sistema. 
+                    Profundiza en C++, un lenguaje que ofrece un gran control sobre recursos del sistema. 
                     Es la elección perfecta para el desarrollo de software de alto rendimiento y juegos. 
                 </p>
             </div>
@@ -63,7 +63,7 @@ export const LanguagesCarousel = () => {
                 </div>
 
                 <h3>
-                    CMYSQL: GESTIÓN DE BASES DE DATOS 
+                    MYSQL: GESTIÓN DE BASES DE DATOS 
                 </h3>
 
                 <p>
