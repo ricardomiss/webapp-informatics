@@ -36,7 +36,7 @@ export const DescriptionStudentsLife = () => {
             </div>
         </div>
 
-        <div className="container-event-item">
+        <div className="container-event-item modify-radius">
             <div className="container-event-item_secondImage">
                 <img src={carrouselevent2} alt="Feria de Proyectos de Software ITESCO" className='edit'/>
             </div>
@@ -54,7 +54,7 @@ export const DescriptionStudentsLife = () => {
           </div>
         </div>
 
-        <div className="container-event-item">
+        <div className="container-event-item modify-radius">
             <div className="container-event-item_secondImage">
                 <img src={carrouselevent4} alt="Conferencia de Seguridad Informática" className='edit'/>
             </div>

@@ -1,3 +1,5 @@
+import '../../style/StudentLife/DescriptionMomentsStudent.css';
+
 export const DescriptionMomentsStudent = () => {
   return (
     <div className="container-MomentsDescription">

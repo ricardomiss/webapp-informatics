@@ -2,7 +2,8 @@ import { BannerImage2 } from "./ComponentsStudents/BannerImage2";
 import { DescriptionStudentsLife } from "./ComponentsStudents/DescriptionStudentsLife";
 import { DescriptionMomentsStudent } from "./ComponentsStudents/DescriptionMomentsStudent";
 import { CarrouselEventHighlights } from "./ComponentsStudents/CarrouselEventHighlights";
-import  InstituteContactForm from "./ComponentsStudents/InstituteContactForm";
+import { ConnectInstitute } from "./componentsHome/ConnectInstitute";
+
 import Footer from "../components/Footer";
 
 export const StudentLife = () => {
@@ -12,7 +13,7 @@ export const StudentLife = () => {
       <DescriptionStudentsLife />
       <DescriptionMomentsStudent />
       <CarrouselEventHighlights />
-      <InstituteContactForm  />
+      <ConnectInstitute  />
       <Footer />
     </main>
 

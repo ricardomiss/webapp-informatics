@@ -10,7 +10,6 @@ import Footer from "../components/Footer";
 export const FeaturedProyects = () => {
   return (
     <main>
-      <div>FeaturedProyects</div>
       <BannerImage1 />
       <DescriptionProyects />
       <CarrouselGalery />

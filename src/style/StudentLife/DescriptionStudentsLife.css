@@ -1,5 +1,5 @@
 .container-StudentsDescription2 {
-    height: 200vh;
+    height: auto;
     width: 100vw;
     box-sizing: border-box;
     position: relative;
@@ -39,7 +39,63 @@
     font-weight: 500;
     padding: 7% 8% 5% 13%;
 }
-.edit {
-    width: 50px;
-    display: block;
+.container-carousel-events {
+    height: auto;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-event-item {
+    height: auto;
+    width: 30%;
+    margin: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E3EFF9;
+    border-radius: 0 0 70px 70px;
+}
+.container-event-item h1 {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 3% 5% 0 5%;
+}
+.container-event-item p {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0 5% 0 5%;
+}
+.container-event-item_image {
+    margin: 6% 0 0 0;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 70px 70px;
+    background: #fff;
+}
+.container-event-item_image img {
+    height: 90%;
+    width: 100%;
+    margin-bottom: -1%;
+    object-fit: cover;
+    border-radius: 0 0 70px 70px;
+}
+.container-event-item_secondImage {
+    border-radius: 70px 70px 0 0;
+}
+.container-event-item_secondImage img {
+    border-radius: 70px 70px 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.modify-radius {
+    border-radius: 70px 70px 0px 0px;
+
 }
