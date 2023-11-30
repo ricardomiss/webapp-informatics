@@ -3,6 +3,7 @@ import { ConnectInstitute } from "./ComponentsRequerimentsInsc/ConnectInstitute"
 import { DescriptionRequeriments } from "./ComponentsRequerimentsInsc/DescriptionRequeriments"
 import { IntroductionInstructions } from "./ComponentsRequerimentsInsc/IntroductionInstructions"
 import Footer from '../components/Footer';
+import { StepsInscription } from "./ComponentsRequerimentsInsc/StepsInscription";
 
 export const RequirementsInscription = () => {
   return (
@@ -11,8 +12,9 @@ export const RequirementsInscription = () => {
       < BannerImage4 />
       < DescriptionRequeriments />
       < IntroductionInstructions />
+      < StepsInscription />
       < ConnectInstitute />
-      <Footer />
+      < Footer />
     </main>
      
   )
