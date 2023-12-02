@@ -1,5 +1,5 @@
 .container-carousel {
-    height: 200vh;
+    height: auto;
     width: 100vw;
     position: relative;
     overflow: hidden;
@@ -7,7 +7,7 @@
 .container-carousel1_circleGalery {
     border-radius: 50%;
     margin: 5vh 0 0 -25%;
-    height: 170vh;
+    height: 150vh;
     width: 150vw;
     background: #1976D2;
     position: absolute;
