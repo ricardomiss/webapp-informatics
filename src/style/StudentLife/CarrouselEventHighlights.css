@@ -6,11 +6,13 @@
     justify-content: center;
     align-items: center;
 }
+
 .container-highlight-item {
     height: auto;
     width: 20%;
     margin: 0px 2%;
 }
+
 .container-highlight-image {
     height: 250px;
     width: 250px;
@@ -21,16 +23,25 @@
     align-items: center;
     margin: 0 auto;
 }
+
 .container-highlight-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
 .container-highlight-item h1 {
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 700; 
+    font-family: 'Bebas Neue', sans-serif; 
     margin: 40px 0px;
 }
+
+.container-highlight-item p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+}
+
 .container-highlight-item h1 span {
     display: block;
 }
