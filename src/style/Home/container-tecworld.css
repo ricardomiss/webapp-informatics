@@ -62,7 +62,8 @@
 .container-immerse p {
     padding: 3% 0 0 5%;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #000;
     margin-bottom: 1rem;
 }
@@ -71,6 +72,7 @@
 .container-immerse h3 {
     font-size: 2.7rem;
     font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
     color: #fff;
     margin-bottom: 1rem;
 }
@@ -78,15 +80,18 @@
 .container-immerse h3 {
     padding-left: 8%;
     color: #000;
+    font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 1rem;
 }
 .container-immerse h3 {
     padding: 5% 0 0 5%;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 2.2rem;
 }
 .container-bridge_description p {
     font-size: 1.4rem;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     margin-bottom: 1rem;
 }
@@ -137,7 +142,8 @@
 .container-eliam_description p {
     padding-left: 8%;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     margin-bottom: 1rem;
 }
@@ -148,7 +154,9 @@
     width: 50%;
     padding: .5rem 1rem;
     font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
+    font-weight: 700;
     background: none;
     border: 1px solid #000;
     border-radius: 30px;

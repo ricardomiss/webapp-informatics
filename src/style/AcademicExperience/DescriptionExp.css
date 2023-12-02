@@ -39,6 +39,8 @@
     width: 60%;
     padding: 2% 5%;
     font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     background: rgba(195, 210, 227, 0.9);
     display: flex;
@@ -61,13 +63,15 @@
     padding-top: 5%;
     color: #000;
     font-size: 3rem;
-    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
     margin: 0px 0px 2% 0px;
 }
 .container-Description5 p {
-    font-weight: 900;
+    font-weight: 700;
     color: #000;
     font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
     margin: -3% 0px 0px 5%;
 }
 .container-Description6 {
@@ -88,7 +92,8 @@
 }
 .container-experienceDesc6 p {
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     color: #000;
     margin: 15% 0px 0px 0px;
 }
@@ -100,8 +105,8 @@
     background: #000;
     color: #fff;
     font-size: 1.2rem;
-    font-weight: 500;
-    margin: 8% 0px 0px 0px;
+    font-weight: 700;
+    margin: 4% 0px 0px 0px;
     cursor: pointer;
 }
 .container-imageWelcomeGPT {

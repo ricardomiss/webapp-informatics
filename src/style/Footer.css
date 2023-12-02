@@ -25,6 +25,7 @@ footer {
 .container-footerThird h3 {
     color: #fff;
     font-size: 1.2rem;
+    font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 1rem;
 
 }
@@ -52,6 +53,7 @@ footer {
 .container-footerThird ul li {
     margin-left: -15%;
     padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
     display: block;
     color: #fff;
 }

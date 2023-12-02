@@ -46,11 +46,15 @@
 }
 .container-course-item h1 {
     font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
     color: #fff;
 }
 .container-course-item p {
     font-size: 1.3rem;
     color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 .container-course-item button {
@@ -62,6 +66,8 @@
     border: none;
     outline: none;
     border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     background: #fff;
     color: #000;
     font-size: 1.2rem;

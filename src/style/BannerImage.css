@@ -1,3 +1,5 @@
+
+
 :root {
     --banner-height: 100vh;
     --banner-width: 100vw;
@@ -49,6 +51,7 @@
 .container-description h1 {
     font-size: 3.5rem;
     font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
     color: #fff;
     margin-bottom: 1rem;
 }
@@ -56,7 +59,8 @@
 .container-description p {
     padding-top: 2%;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     color: #EBECF0;
     margin-bottom: 1rem;
 }
@@ -64,7 +68,9 @@
 .container-description button {
     margin-top: 2%;
     padding: .5rem 6rem;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.3rem;
+    font-weight: 700;
     color: #fff;
     background: none;
     border: 1px solid #fff;
