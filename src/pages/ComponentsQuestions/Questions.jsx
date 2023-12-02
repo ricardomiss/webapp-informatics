@@ -1,13 +1,15 @@
+import '../../style/FrequentQuestions/Questions.css';
+
 export const Questions = () => {
   return (
     <div className="container-faq">
         <div className="container-faqDescription">
             <div className="faq-item">
                 <div className="faq-question">
-                    <p>¿Cuáles son los conocimientos previos recomendables para estudiar Ingeniería Informática?</p>
+                    <p>¿Cuáles son los beneficios de estudiar Ingeniería Informática en el ITESCO?</p>
                 </div>
                 <div className="faq-answer">
-                    <p>Para la carrera de Ingeniería Informática, es ideal tener una base en matemáticas y ciencias de la computación...</p>
+                    <p>Los beneficios de estudiar Ingeniería Informática en el ITESCO incluyen una formación integral y multidisciplinaria que prepara a los estudiantes para enfrentar desafíos tecnológicos actuales. Los estudiantes adquieren habilidades en diseño, desarrollo y gestión de proyectos informáticos, optimización de procesos organizacionales mediante herramientas computacionales, y administración de redes de computadoras. Además, el ITESCO promueve el desarrollo ético y responsable, respetando el marco legal y el medio ambiente.</p>
                 </div>
             </div>
             <div className="faq-item">

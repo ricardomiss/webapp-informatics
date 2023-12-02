@@ -1,4 +1,4 @@
-import studentsbackground from '../../statics/BannerFrequentQuestions.webp';
+import '../../style/FrequentQuestions/BannerImage5.css';
 
 export const BannerImage5 = () => {
   return (

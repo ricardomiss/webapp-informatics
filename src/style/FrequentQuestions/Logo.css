@@ -1,0 +1,31 @@
+.container-LogoQuestions {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.container-LogoQuestions_flexElement {
+    margin: 7% 15%;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.container-LogoQuestions_image {
+    position: relative;
+    overflow: hidden;
+}
+
+.container-LogoQuestions_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,8 +1,9 @@
 import { BannerImage5 } from "./ComponentsQuestions/BannerImage5"
-import InstituteContactForm from "./ComponentsQuestions/InstituteContactForm"
+import { ConnectInstitute } from "./ComponentsQuestions/ConnectInstitute"
 import { LogoQuestions } from "./ComponentsQuestions/LogoQuestions"
 import { Questions } from "./ComponentsQuestions/Questions"
 import { Questions1 } from "./ComponentsQuestions/Questions1"
+import Footer from '../components/Footer';
 
 export const FrequentQuestions = () => {
   return (
@@ -11,7 +12,8 @@ export const FrequentQuestions = () => {
       <LogoQuestions />
       <Questions />
       <Questions1 />
-      <InstituteContactForm />
+      <ConnectInstitute/>
+      <Footer />
     </main>
 
   )

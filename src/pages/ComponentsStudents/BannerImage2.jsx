@@ -1,4 +1,3 @@
-import studentsbackground from '../../statics/BannerStudents.webp';
 import '../../style/StudentLife/BannerImage2.css';
 
 export const BannerImage2 = () => {
