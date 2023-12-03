@@ -11,13 +11,15 @@
     color: #212121;
     font-size: 2.5rem;
     font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif; 
     padding: 2% 2% 0 5%;
     margin: 0 0 0 0;
 }
 .container-projetcsDescription1 p {
     color: #212121;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     padding: 2% 15% 5% 15%;
     margin: 0 0 0 0;
 }

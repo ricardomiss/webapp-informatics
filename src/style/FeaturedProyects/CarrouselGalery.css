@@ -39,6 +39,7 @@
 .container-content h1 {
     font-size: 1.8rem;
     font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif; 
     color: #212121;
     margin: 0;
     padding: 2% 8% 3% 8%;
@@ -47,7 +48,8 @@
 }
 .container-content p {
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     color: #212121;
     padding: 0 10% 5% 10%;
 }
