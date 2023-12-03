@@ -8,7 +8,6 @@ import { StepsInscription } from "./ComponentsRequerimentsInsc/StepsInscription"
 export const RequirementsInscription = () => {
   return (
     <main>
-      <div>RequirementsInscription</div>
       < BannerImage4 />
       < DescriptionRequeriments />
       < IntroductionInstructions />

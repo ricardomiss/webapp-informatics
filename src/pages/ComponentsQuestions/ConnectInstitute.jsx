@@ -1,5 +1,3 @@
-import '../../style/FrequentQuestions/ConnectInstitute.css';
-
 export const ConnectInstitute = () => {
   return (
     <div className='container-connect'>
