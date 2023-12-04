@@ -4,7 +4,7 @@ import Logo from '../../statics/LogoBlack.webp';
 
 export const StepsInscription= () => {
     return (
-        <div className="container-steps">
+        <>
             <div className="container-steps_img1">
                 <img src={Steps1} alt="steps_img1" />
             </div>
@@ -24,7 +24,7 @@ export const StepsInscription= () => {
                 <img src={Steps2} alt="steps_img2" />
             </div>
 
-        </div>
+        </>
         
     );
 }
