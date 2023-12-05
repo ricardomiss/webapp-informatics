@@ -14,34 +14,34 @@ export const Questions = () => {
             </div>
             <div className="faq-item">
                 <div className="faq-question">
-                    <p>¿Cuál es el proceso detallado de inscripción para nuevos estudiantes de Ingeniería Informática?</p>
+                    <p>¿Cómo contribuye la Ingeniería Informática del ITESCO al progreso de la comunidad y del país?</p>
                 </div>
                 <div className="faq-answer">
-                    <p>El proceso de inscripción comienza con la asignación de un correo institucional y número de control el 21 de julio...</p>
+                    <p>La Ingeniería Informática del ITESCO contribuye al progreso de la comunidad y del país formando profesionistas capaces de integrar eficientemente tecnologías de la información en los sectores productivos. Esto asegura el mejoramiento continuo de servicios, incrementando la productividad y eficiencia en la gestión de infraestructura computacional, lo que beneficia directamente al desarrollo económico y social.</p>
                 </div>
             </div>
             <div className="faq-item">
                 <div className="faq-question">
-                    <p>¿Qué becas están disponibles para los estudiantes de Ingeniería Informática?</p>
+                    <p>¿A qué correo electrónico pueden dirigirse los estudiantes para resolver dudas específicas sobre la carrera de Ingeniería Informática en el ITESCO?</p>
                 </div>
                 <div className="faq-answer">
-                    <p>Los estudiantes de Ingeniería Informática tienen acceso a varias becas como la Beca de Excelencia...</p>
+                    <p>Los estudiantes o interesados en la carrera de Ingeniería Informática en ITESCO pueden enviar sus consultas al correo div_informatica@itesco.edu.mx. Este correo es específico para la división de informática y es ideal para obtener respuestas detalladas y personalizadas acerca del programa, requisitos, inscripción, y cualquier otra duda relacionada con la carrera.</p>
                 </div>
             </div>
             <div className="faq-item">
                 <div className="faq-question">
-                    <p>¿Qué tipo de proyectos de grado realizan los estudiantes?</p>
+                    <p>¿Dónde pueden encontrar los estudiantes información actualizada y noticias sobre la carrera de Ingeniería Informática en ITESCO?</p>
                 </div>
                 <div className="faq-answer">
-                    <p>Los estudiantes de Ingeniería Informática trabajan en proyectos que incluyen desarrollo de software...</p>
+                    <p>Para información actualizada, eventos y noticias sobre la carrera de Ingeniería Informática en ITESCO, los estudiantes pueden visitar la página oficial de Facebook en https://www.facebook.com/ITESCO.Informatica. Esta página plataforma proporciona una forma interactiva de mantenerse informado sobre las últimas novedades, actividades y oportunidades relacionadas con la carrera.</p>
                 </div>
             </div>
             <div className="faq-item">
                 <div className="faq-question">
-                    <p>¿Cuáles son los objetivos específicos del perfil de egreso en Ingeniería Informática?</p>
+                    <p>¿Cuáles son los conocimientos previos recomendables para estudiar Ingeniería Informática?</p>
                 </div>
                 <div className="faq-answer">
-                    <p>Los objetivos del perfil de egreso incluyen la aplicación de conocimientos científicos y tecnológicos en informática...</p>
+                    <p>Para la carrera de Ingeniería Informática, es ideal tener una base en matemáticas y ciencias de la computación. El programa está diseñado para llevar a los estudiantes desde los fundamentos hasta conceptos avanzados. Los estudiantes deben estar preparados para aplicar conocimientos científicos y tecnológicos en informática, desarrollar y gestionar proyectos de software, utilizar herramientas computacionales emergentes, diseñar e implementar bases de datos, crear y administrar redes de computadoras y realizar consultorías informáticas.</p>
                 </div>
             </div>
         </div>

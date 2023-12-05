@@ -18,6 +18,8 @@
     z-index: 10;
     display: flex;
     justify-content: center;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     align-items: center;
     font-size: 2rem;
     position: relative;
