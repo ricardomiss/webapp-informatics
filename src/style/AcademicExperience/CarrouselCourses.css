@@ -1,0 +1,75 @@
+.container-carousel-courses {
+    height: auto;
+    width: 100vw;
+    position: relative;
+    z-index: -2;
+    background: #46546c;
+}
+.container-carouselCourses_circle {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    border-radius: 0px 0px 0px 70%;
+    background: #1f2d48;
+}
+.container-carouselCourse_display-flex {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-course-item {
+    height: 610px;
+    width: 20%;
+    margin: 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: darkgoldenrod; */
+}
+.container-courseImage {
+    height: 45%;
+    width: 93%;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+.container-courseImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container-course-item h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+}
+.container-course-item p {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.container-course-item button {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: #fff;
+    color: #000;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

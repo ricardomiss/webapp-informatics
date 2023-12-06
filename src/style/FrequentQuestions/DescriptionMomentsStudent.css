@@ -1,0 +1,74 @@
+.container-connect {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-connect h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    color: #212121;
+}
+
+.container-connect p {
+    padding: 0px 25%;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+}
+
+.container-connect_inputs {
+    height: auto;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-connect_inputs form {
+    height: auto;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container-connect_inputs form .input-text {
+    width: 20%;
+    height: 40px;
+    border: none;
+    background: #BDBDBD;
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    color: #000;
+}
+
+.container-connect_inputs form .input-text::placeholder {
+    color: #000;
+}
+
+.container-connect_inputs form .input-button {
+    height: 40px;
+    width: 15%;
+    margin: 10px 2%;
+    display: block;
+    background: #212121;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}

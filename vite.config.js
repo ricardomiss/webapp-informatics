@@ -7,6 +7,12 @@ export default defineConfig({
   server: {
     host: true,
     strictPort: true,
-    port: 5173
+    port: 5173,
+    // Si es de Windows a Linux (no importa distribucion) y funcione en docker-compose
+    // el atributo volumes, es necesario aplicar esta funcionalidad, si no el vite
+    // no ejecutará correctamente y no podrá hacer los cambis a tiempo real
+      watch: {
+        usePolling: true
+      }
   }
 })

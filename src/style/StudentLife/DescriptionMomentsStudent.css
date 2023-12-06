@@ -1,0 +1,29 @@
+.container-MomentsDescription {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container-Description3 {
+    height: auto;
+    width: 65%;
+    margin: 5% 0;
+}
+
+.container-Description3 h1 {
+    font-size: 1.7rem;
+    font-weight: 700; 
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000;
+    margin-bottom: 5%;
+}
+
+.container-Description3 p {
+    font-size: 1.4rem;
+    font-weight: 700; 
+    font-family: 'Montserrat', sans-serif; 
+    color: #000;
+}

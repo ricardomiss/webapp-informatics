@@ -1,0 +1,172 @@
+.container-TecWorld {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: #FFFFFF;
+    overflow: hidden;   
+}
+.container-circleBlue {
+    margin: 20% 0 0 -10%;
+    height: 120%;
+    width: 120%;
+    border-radius: 50%;
+    background: #60708f;
+    overflow: hidden;
+}
+.container-bridge,
+.container-imageComputer { /* optimizando */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+    background: linear-gradient(to top, #5e6f91, #10559c); /* reemplaza color1 y color2 con los colores que desees */
+}
+.container-imageComputer {
+    height: 100%;
+    width: 65%;
+    overflow: hidden;
+}
+.container-immerse {
+    height: 80%;
+    width: 75%;
+    background: rgba(195, 210, 227, 0.9);
+}
+.container-bridge_description,
+.container-bridge_images {
+    margin-left: 5%;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-bridge_images,
+.container-bridge_images-second {
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+}
+.container-bridge_images-second,
+.container-descriptionTechnology{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+}
+.container-descriptionTechnology { 
+    width: 80%;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    margin: 9% 10%;
+}
+.container-immerse p {
+    padding: 3% 0 0 5%;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.container-bridge_description h3,
+.container-eliam_description h3,
+.container-immerse h3 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.container-eliam_description h3,
+.container-immerse h3 {
+    padding-left: 8%;
+    color: #000;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-bottom: 1rem;
+}
+.container-immerse h3 {
+    padding: 5% 0 0 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.2rem;
+}
+.container-bridge_description p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.container-bridge_images-first {
+    height: 35%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-bridge_images-second img,
+.container-eliamImage img,
+.container-imageComputer img,
+.container-bridge_images-first img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.container-eliamImage img { z-index: 100; }
+.container-bridge_images-first img {
+    margin-top: 100%;
+    margin-left: 15%;
+    z-index: 100;
+}
+.container-eliam {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    position: relative;
+}
+.container-eliamImage,
+.container-eliam_description {
+    height: 100%;
+    width: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.container-eliam_description {
+    margin: 10% 0 0 -14%;
+    height: 60%;
+    width: 55%;
+    flex-direction: column;
+    background: rgba(195, 210, 227, 0.9);
+}
+.container-eliam_description p {
+    padding-left: 8%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    margin-bottom: 1rem;
+}
+.container-eliam_description button,
+.container-immerse button,
+.container-bridge_description button {
+    margin: 5% 0 0 8%;
+    width: 50%;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 700;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+.container-immerse button {
+    margin: 5% 5%;
+    font-weight: 700;
+}
+.container-bridge_description button {
+    margin-top: 7%;
+    color: #fff;
+    border: 1px solid #fff;
+}

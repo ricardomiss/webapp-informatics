@@ -1,0 +1,33 @@
+.container-LogoQuestions {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    z-index: -2;
+}
+.container-LogoQuestions_circle {
+    height: 120vh;
+    width: 100vw;
+    margin-top: 20%;
+    border-radius: 50% 50% 0 0;
+    display: block;
+    position: absolute;
+    background: #EEEEEE;
+    overflow: hidden;
+    z-index: -1;
+}
+.container-LogoQuestions_image {
+    margin: 0% 27%;
+    height: 100%;
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-LogoQuestions_image img {
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+}

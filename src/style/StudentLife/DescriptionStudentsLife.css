@@ -1,0 +1,106 @@
+.container-StudentsDescription2 {
+    height: auto;
+    width: 100vw;
+    box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(To Top, #fff, #014D98);
+}
+.container-Description2-first {
+    margin: 0px 5% 5% 5%;
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container-Description2First_image {
+    margin: 2% 0 2% 2%;
+    height: 400px;
+    width: 600px;
+    z-index: 1;
+    position: relative;
+}
+.container-Description2First_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container-Description_p {
+    z-index: 2;
+    margin: 0 2% 0 -8%;
+    height: 300px;
+    width: 100%;
+    background: rgba(31, 45, 72, 0.7);
+}
+.container-Description_p p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+    padding: 7% 8% 5% 13%;
+}
+.container-carousel-events {
+    height: auto;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-event-item {
+    height: auto;
+    width: 30%;
+    margin: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E3EFF9;
+    border-radius: 0 0 70px 70px;
+}
+.container-event-item h1 {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700; 
+    font-family: 'Bebas Neue', sans-serif; 
+    padding: 3% 5% 0 5%;
+}
+
+.container-event-item p {
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 700; 
+    font-family: 'Montserrat', sans-serif; 
+    padding: 0 5% 0 5%;
+}
+
+.container-event-item_image {
+    margin: 6% 0 0 0;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 70px 70px;
+    background: #fff;
+}
+.container-event-item_image img {
+    height: 90%;
+    width: 100%;
+    margin-bottom: -1%;
+    object-fit: cover;
+    border-radius: 0 0 70px 70px;
+}
+.container-event-item_secondImage {
+    border-radius: 70px 70px 0 0;
+}
+.container-event-item_secondImage img {
+    border-radius: 70px 70px 0 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.modify-radius {
+    border-radius: 70px 70px 0px 0px;
+
+}

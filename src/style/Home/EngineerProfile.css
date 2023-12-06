@@ -1,0 +1,72 @@
+.container-engineerProfile {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    position: relative;
+    background: #46546c;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.container-engineerProfile_circle {
+    margin-top: -15%;
+    margin-left: 5%;
+    height: 122vh;
+    width: 122vw;
+    border-radius: 50%;
+    position: absolute;
+    background: #1f2d48;
+    z-index: -1;
+    transform: rotate(25deg);
+}
+
+.container-engineerProfile_flexElement {
+    margin: 7% 15%;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.container-engineerProfile_image {
+    height: 60%;
+    width: 38%;
+    border-radius: 70%;
+    background: #1f2d48;
+    position: relative;
+    overflow: hidden;
+}
+
+.container-engineerProfile_image img {
+    height: 110%;
+    width: 110%;
+    object-fit: cover;
+}
+
+.container-engineerProfile_description {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.container-engineerProfile_description h3 {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.container-engineerProfile_description p {
+    padding: 1% 5%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}

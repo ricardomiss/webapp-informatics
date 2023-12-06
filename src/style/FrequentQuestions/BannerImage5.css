@@ -1,0 +1,37 @@
+.container-bannerFrequentQuestions {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../statics/BannerFrequentQuestions.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.container-bannerFrequentQuestionsDescription {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.container-bannerFrequentQuestionsDescription h1 {
+    width: 55%;
+    padding: 23% 0 0 5%;
+    color: white;
+    font-size: 3.7rem;
+    font-weight: 700;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+.container-bannerFrequentQuestionsDescription p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}

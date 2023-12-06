@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Jesus Rosml</title>
+    <link rel="stylesheet" href="src/style/normalize.css">
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/Main.jsx"></script>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="INFBOT"
+      agent-id="fd5d40a1-7dd6-4eef-99bb-e3981ff655ea"
+      language-code="en"
+    >
+    </df-messenger>
   </body>
 </html>
