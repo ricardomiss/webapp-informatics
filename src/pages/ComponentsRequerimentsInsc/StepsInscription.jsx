@@ -1,10 +1,14 @@
 import Steps1 from '../../statics/Steps1.webp';
 import Steps2 from '../../statics/Steps2.webp';
 import Logo from '../../statics/LogoBlack.webp';
+import firstInfografia from '../../statics/infografia_primera.jpg';
 
 export const StepsInscription= () => {
     return (
         <>
+            <div className="container-steps_img1">
+                <img src={ firstInfografia } alt="steps_img2" />
+            </div>
             <div className="container-steps_img1">
                 <img src={Steps1} alt="steps_img1" />
             </div>
@@ -20,10 +24,9 @@ export const StepsInscription= () => {
                 </div>
             </div>
 
-            <div className="container-steps_img2">
+            <div className="container-steps_img1">
                 <img src={Steps2} alt="steps_img2" />
             </div>
-
         </>
         
     );

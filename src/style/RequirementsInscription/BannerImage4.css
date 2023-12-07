@@ -115,3 +115,36 @@
     width: 100%;
     object-fit: cover;
 }
+.container-IntroductionSteps {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.container-imageLogosteps {
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.container-imageLogosteps img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container-motivatedSteps {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-motivatedSteps h1 {
+    font-size: 4.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
