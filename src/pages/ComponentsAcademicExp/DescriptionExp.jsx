@@ -1,4 +1,4 @@
-import ChatGPTLovers from '../../statics/CarouselEvent1.webp';
+import ChatGPTLovers from '../../statics/imageWelcomeGPT.webp';
 import ChatGPTLovers1 from '../../statics/chatgept.webp';
 import DescriptionExp from '../../statics/DescriptionExpAcademic.webp';
 import '../../style/AcademicExperience/DescriptionExp.css';

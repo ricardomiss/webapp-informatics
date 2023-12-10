@@ -1,4 +1,4 @@
-import imgCode from '../../statics/img-code.webp';
+import imgCode from '../../statics/img-bannerhome.webp';
 import '../../style/BannerImage.css';
 
 export const BannerImage = () => {
