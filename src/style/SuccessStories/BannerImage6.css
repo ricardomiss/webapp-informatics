@@ -1,0 +1,39 @@
+.container-bannerSucessStories {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../statics/banner-casosExito.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.container-bannerFrequentQuestionsDescription{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+.container-stories_title,.container-stories_image {
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-stories_title h1 {
+    margin-top: -15%;
+    font-size: 6rem;
+    width: 100%;
+}
+.container-stories_image img {
+    width: 600px;
+    display: block;
+}

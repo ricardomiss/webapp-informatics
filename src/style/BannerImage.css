@@ -65,7 +65,8 @@
     margin-bottom: 1rem;
 }
 
-.container-description button {
+.container-description a {
+    text-decoration: none;
     margin-top: 2%;
     padding: .5rem 6rem;
     font-family: 'Montserrat', sans-serif;
