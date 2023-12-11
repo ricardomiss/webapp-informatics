@@ -1,9 +1,9 @@
-import conceptKeyImage from '../../statics/CarrouselVideo2.webp';
-import practiceConsistentImage from '../../statics/CarrouselHighlights3.webp';
+import conceptKeyImage from '../../statics/conceptKeyImage.webp';
+import practiceConsistentImage from '../../statics/practiceConsistentImage.webp';
 import realProjectsImage from '../../statics/realProjectsImage.webp';
-import learnFromMistakesImage from '../../statics/DescriptionExpAcademic.webp';
-import collaborateShareImage from '../../statics/CarrouselHighlights1.webp';
-import maintainBalanceImage from '../../statics/CarrouselHighlights1.webp';
+import learnFromMistakesImage from '../../statics/learnFromMistakesImage.webp';
+import collaborateShareImage from '../../statics/collaborateShareImage.webp';
+import maintainBalanceImage from '../../statics/maintainBalanceImage.webp';
 
 import '../../style/AcademicExperience/CarrouselLearningTips.css';
 

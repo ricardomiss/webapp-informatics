@@ -1,5 +1,5 @@
 import carrouselhighlights1 from '../../statics/CarrouselHighlights1.webp';
-import carrouselhighlights2 from '../../statics/CarouselProjects2.webp';
+import carrouselhighlights2 from '../../statics/CarrouselHighlights4.webp';
 import carrouselhighlights3 from '../../statics/CarrouselHighlights2.webp';
 import carrouselhighlights4 from '../../statics/CarrouselHighlights3.webp';
 

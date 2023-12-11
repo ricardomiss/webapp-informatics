@@ -19,9 +19,7 @@ export let valueEnableWindow = false;
 const Header = () => {
 
     const [selectedItem, setSelectedItem] = useState('one');
-
     const selectItem = (liIDs) => setSelectedItem(liIDs);
-
     const searchWindow = () => {
         console.log('Clicked Search Button!!');
     }

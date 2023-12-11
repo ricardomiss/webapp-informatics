@@ -1,7 +1,7 @@
-import CarrouselVideo1 from '../../statics/CarrouselVideo1.webp';
-import CarrouselVideo2 from '../../statics/EngineerProfile.webp';
-import CarrouselVideo3 from '../../statics/CarrouselVideo2.webp';
-import CarrouselVideo4 from '../../statics/CarrouselVideo3.webp';
+import CarrouselVideo1 from '../../statics/casoexito1.mp4';
+import CarrouselVideo2 from '../../statics/casoexito2.mp4';
+import CarrouselVideo3 from '../../statics/casoexito3.mp4';
+import CarrouselVideo4 from '../../statics/casoexito4.mp4';
 
 import '../../style/FeaturedProyects/CarrouselVideo.css';
 
@@ -17,7 +17,7 @@ export const CarrouselVideo = () => {
       <div className="container-carousel_flexbox">
 
         <div className="container-carousel-item-video">
-          <img src={CarrouselVideo1} alt="Estudiante 1" className='container-video-thumbnail' />
+          <video src={ CarrouselVideo1 } controls className='container-video-thumbnail'></video>
           
           <div className="container-video-content">
             <h1>Diseñando el Futuro</h1>
@@ -26,7 +26,7 @@ export const CarrouselVideo = () => {
         </div>
 
         <div className="container-carousel-item-video">
-          <img src={CarrouselVideo2} alt="Estudiante 2" className='container-video-thumbnail' />
+          <video src={ CarrouselVideo2 } controls className='container-video-thumbnail'></video>
           <div className="container-video-content">
             <h1>Código que Cuenta Historias</h1>
             <p>Ana Gómez explica cómo su pasión por narrativas interactivas se traduce en innovadoras aplicaciones de storytelling.</p>
@@ -34,7 +34,7 @@ export const CarrouselVideo = () => {
         </div>
 
         <div className="container-carousel-item-video">
-          <img src={CarrouselVideo3} alt="Estudiante 3" className='container-video-thumbnail' />
+          <video src={ CarrouselVideo3 } controls className='container-video-thumbnail'></video>
           <div className="container-video-content">
             <h1>Ingeniería con Impacto Social</h1>
             <p>Carlos Sánchez habla sobre cómo su software de aprendizaje de idiomas está ayudando a comunidades marginadas.</p>
@@ -42,7 +42,7 @@ export const CarrouselVideo = () => {
         </div>
 
         <div className="container-carousel-item-video">
-          <img src={CarrouselVideo4} alt="Estudiante 4" className='container-video-thumbnail' />
+          <video src={ CarrouselVideo4 } controls className='container-video-thumbnail'></video>
           <div className="container-video-content">
             <h1>Tecnología para un Mundo Mejor</h1>
             <p>Luisa Fernanda comparte su viaje en el desarrollo de una app ecológica que promueve el reciclaje en el campus.</p>

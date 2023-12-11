@@ -4,6 +4,7 @@ import { DescriptionRequeriments } from "./ComponentsRequerimentsInsc/Descriptio
 import { IntroductionInstructions } from "./ComponentsRequerimentsInsc/IntroductionInstructions"
 import Footer from '../components/Footer';
 import { StepsInscription } from "./ComponentsRequerimentsInsc/StepsInscription";
+import '../style/RequirementsInscription/container-messageStraight.css';
 
 export const RequirementsInscription = () => {
   return (

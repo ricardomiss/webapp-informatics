@@ -1,4 +1,4 @@
-import ChatGPTLovers from '../../statics/CarouselEvent1.webp';
+import ChatGPTLovers from '../../statics/imageWelcomeGPT.webp';
 import ChatGPTLovers1 from '../../statics/chatgept.webp';
 import DescriptionExp from '../../statics/DescriptionExpAcademic.webp';
 import '../../style/AcademicExperience/DescriptionExp.css';
@@ -47,7 +47,7 @@ export const DescriptionAcademicExp = () => {
               digital nunca termina!.
             </p>
 
-            <button>Buscanos en nuestras redes</button>
+            <a href="https://beacons.ai/proinformaticos" target="_blank" rel="noopener noreferrer"><button>Buscanos en nuestras redes</button></a>
           </div>
 
           <img src={ChatGPTLovers} alt="" className='container-imageWelcomeGPT' />

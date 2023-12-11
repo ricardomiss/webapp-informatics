@@ -22,14 +22,15 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    box-shadow: 8px 8px 9px 8px rgba(0, 0, 0, 0.1);
 }
 
 .container-highlight-image img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center; 
 }
-
 .container-highlight-item h1 {
     font-size: 1.3rem;
     font-weight: 700; 
