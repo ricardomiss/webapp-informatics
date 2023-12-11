@@ -27,7 +27,6 @@ footer {
     font-size: 1.2rem;
     font-family: 'Bebas Neue', sans-serif;
     margin-bottom: 1rem;
-
 }
 
 .container-footer_redes ul,
@@ -43,9 +42,13 @@ footer {
 
 .container-footerThird {
    margin-right: 9%;
-
 }
 
+.container-footerSecond ul li p {
+    max-width: 320px;
+    padding: 0 1rem;
+    text-align: justify;
+}
 
 .container-footer_redes ul li,
 .container-footerFirst ul li,
@@ -56,4 +59,32 @@ footer {
     font-family: 'Montserrat', sans-serif;
     display: block;
     color: #fff;
+}
+
+.container-footer_redes ul li a,
+.container-footerThird ul li a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-footer_redes ul li a span,
+.container-footerThird ul li a span {
+    margin-left: 8px;
+}
+
+.container-footer_redes ul li a:hover,
+.container-footer_redes ul li a:focus {
+    color: #9b9ca3;
+    text-decoration: underline;
+}
+
+.icon-git,
+.icon-fb,
+.icon-ig,
+.icon-tw,
+.icon-envelope {
+    color: inherit;
+    /* Aquí puedes agregar otros estilos para los íconos si es necesario */
 }
