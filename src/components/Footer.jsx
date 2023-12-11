@@ -20,7 +20,7 @@ const Footer = () => {
 
                     <ul>
                         <li><a href="https://www.facebook.com/ITESCOOFICIAL" target="_blank" rel="noopener noreferrer"><FaFacebook className='icon-git' /><span>Cuenta oficial de ITESCO</span></a> </li>
-                        <li><a href="https://www.facebook.com/ITESCOOFICIAL" target="_blank" rel="noopener noreferrer"><FaFacebook className='icon-git' /><span>Cuenta oficial de Informática</span></a> </li>
+                        <li><a href="https://www.facebook.com/ITESCO.Informatica" target="_blank" rel="noopener noreferrer"><FaFacebook className='icon-git' /><span>Cuenta oficial de Informática</span></a> </li>
                     </ul>
                 </div>
 
