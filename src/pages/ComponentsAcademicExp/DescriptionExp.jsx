@@ -47,7 +47,7 @@ export const DescriptionAcademicExp = () => {
               digital nunca termina!.
             </p>
 
-            <button>Buscanos en nuestras redes</button>
+            <a href="https://beacons.ai/proinformaticos" target="_blank" rel="noopener noreferrer"><button>Buscanos en nuestras redes</button></a>
           </div>
 
           <img src={ChatGPTLovers} alt="" className='container-imageWelcomeGPT' />
