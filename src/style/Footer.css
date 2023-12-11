@@ -44,10 +44,13 @@ footer {
    margin-right: 9%;
 }
 
-.container-footerSecond ul li p {
+.container-footerSecond p {
     max-width: 320px;
+    color: #fff;
     padding: 0 1rem;
-    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -5%;
+    padding-top: 2%;
 }
 
 .container-footer_redes ul li,
@@ -86,5 +89,4 @@ footer {
 .icon-tw,
 .icon-envelope {
     color: inherit;
-    /* Aquí puedes agregar otros estilos para los íconos si es necesario */
 }

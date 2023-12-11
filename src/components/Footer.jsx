@@ -35,9 +35,7 @@ const Footer = () => {
                 <div className="container-footerSecond">
                     <h3>Dirección</h3>
 
-                    <ul>
-                        <li><p>Carretera Antigua Minatitlán-Coatzacoalcos Km. 16.5 Col. Reserva Territorial, C.P.96536</p></li>
-                    </ul>
+                    <p>Carretera Antigua Minatitlán-Coatzacoalcos Km. 16.5 Col. Reserva Territorial, C.P.96536</p>
                 </div>
 
             </footer>
