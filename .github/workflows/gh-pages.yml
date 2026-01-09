@@ -29,12 +29,11 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         
-        git checkout --orphan gh-pages || git checkout gh-pages
-        git reset --hard  # Clean branch
-
-        git clean -fd
-        cp -r dist/* .
+        cp -r dist /tmp/dist-backup
+        git checkout --orphan gh-pages
+        rm -rf *
+        cp -r /tmp/dist-deploy/* .
         
-        git add -all
+        git add -A
         git commit --allow-empty -m "Deploy to GitHub Pages"
         git push origin gh-pages --force
