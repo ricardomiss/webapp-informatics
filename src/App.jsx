@@ -10,7 +10,7 @@ import Header from "./components/Header";
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/webapp-informatics">
         <Header />
         <Routes>
             <Route path="/" element={ <Home /> }></Route>
