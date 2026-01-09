@@ -20,7 +20,7 @@ const Footer = () => {
 
                     <ul>
                         <li><a href="https://www.facebook.com/ITESCOOFICIAL" target="_blank" rel="noopener noreferrer"><FaFacebook className='icon-git' /><span>Cuenta oficial de ITESCO</span></a> </li>
-                        <li><a href="https://www.facebook.com/ITESCOOFICIAL" target="_blank" rel="noopener noreferrer"><FaFacebook className='icon-git' /><span>Cuenta oficial de Informática</span></a> </li>
+                        <li><a href="https://www.facebook.com/ITESCO.Informatica" target="_blank" rel="noopener noreferrer"><FaFacebook className='icon-git' /><span>Cuenta oficial de Informática</span></a> </li>
                     </ul>
                 </div>
 
@@ -35,9 +35,7 @@ const Footer = () => {
                 <div className="container-footerSecond">
                     <h3>Dirección</h3>
 
-                    <ul>
-                        <li><p>Carretera Antigua Minatitlán-Coatzacoalcos Km. 16.5 Col. Reserva Territorial, C.P.96536</p></li>
-                    </ul>
+                    <p>Carretera Antigua Minatitlán-Coatzacoalcos Km. 16.5 Col. Reserva Territorial, C.P.96536</p>
                 </div>
 
             </footer>
